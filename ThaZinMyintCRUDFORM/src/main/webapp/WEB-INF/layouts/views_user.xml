@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <!-- userList Page -->
+    <definition name="userList" extends="template1">
+        <put-attribute name="title" value="userList" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/list/userList.jsp" />
+    </definition>
+    <!-- createUser -->
+    <definition name="createUser" extends="template1">
+        <put-attribute name="title" value="createUser" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/create/createUser.jsp" />
+    </definition>
+    <!-- UpdateUser Page -->
+    <definition name="updateUser" extends="template1">
+        <put-attribute name="title" value="updateUser" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/update/updateUser.jsp" />
+    </definition>
+
+</tiles-definitions>
